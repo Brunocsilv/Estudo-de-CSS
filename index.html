@@ -1,7 +1,7 @@
 <html>
- <head>
- <title> Nome pagina </title>
- <style type="text/css" title="mystyles" media="all">
+  <head>
+    <title> Nome pagina </title>
+  <style type="text/css" title="mystyles" media="all">
  body {
      background-color: #e8eae8;
      color: #5d665b;
@@ -14,21 +14,33 @@
      font-size : small;
      line-height: 180%;
      }
-p { text-indent: 3em;}
-h3 {color:#966b72;
-font-family: Georgia, 'Times New Roman', Times, serif;}
-
-margin-top: 70px;
-margin-left; 120px;
-margin-right: 50px;
-margin-bottom: 70px;
+ p { text-indent: 3em;}
+ h3 {color:#966b72;
+ font-family: Georgia, 'Times New Roman', Times, serif;}
+  ol{
+    list-style-type: lower-roman;
+    margin: 1em 0 1em 40px
+  }
+  ol li{ margin: .5em 0 .5em 0}
+  ul { list-style-image: url(smiley.gif) }
+  ul li {margin: 1em 0 1em 0;}
 
 </style>
- </head>
+</head>
  <body>
-    <h3> <p> Essa é minha página web!</p> </h3> 
+    <h3> <p style="background-color: black;">  Essa é minha página web!</p> </h3> 
     <p>Minha <b>primeira</b> página!
      <b>Iniciando</b> o curso de <i>css.</i></p>
+     &nbsp;
+     <li style=" list-style-image: url(icon1.gif);
+     margin: 1em 0 1em 0">Sabemos sobre <b>pessoas.</b></li>
+     <li style=" list-style-image: url(icon2.gif);
+     margin: 1em 0 1em 0">Sabemos sobre <b>imagens.</b></li>
+     <li style=" list-style-image: url(icon3.gif);
+     margin: 1em 0 1em 0">Sabemos sobre <b>ideias.</b></li>
+     <li style=" list-style-image: url(icon4.gif);
+     margin: 1em 0 1em 0">Sabemos <b>escrever.</b></li>
+
      
  </body>
 </html>
