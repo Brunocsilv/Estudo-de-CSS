@@ -1,0 +1,90 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>CSS desde o in&iacute;cio - p&aacute;gina 13</title> 
+	<style type="text/css" media="screen"><!--
+	
+body      /* estilos gerais para a pagina */
+	{
+	color:black; 
+	background-color:#ebebd9;
+	font-family: Georgia, Times, serif;
+	font-size: 10px;
+	}
+	
+h2 {
+	font-family: Verdana, Arial, sans-serif;
+	}
+	
+	
+p 	{
+	line-height: 20px;
+	}
+	
+	
+input      /* inclui  input text box, submit e clear buttons */
+	{
+	font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	}
+
+#typein     /* uma div para isolar a input text box */
+	{
+	border-color:blue;
+	border-width: 3px;
+	border-style: solid;
+	width: 350px;
+	}
+	
+#typein input, #typein textarea   /* estiles para a div  #typein  */
+	{
+	color: #363;
+	font-size: 10px;
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #ebebd9;
+	padding: 3px;
+	border: solid 3px rebeccapurple;
+	}
+
+</style> 
+</head>
+<body>
+<div align="left">
+<p>&nbsp;</p>
+<h2>Teste de estiliza&ccedil;&atilde;o de formul&aacute;rios </h2>
+<p>&nbsp;</p>
+
+<form id="FormName" action="#" method="get" name="FormName">
+	<div id="typein">
+		<p>
+			<input type="text" name="textfieldName" value="Exemplo" size="20">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<select name="selectName" size="1"> 
+				<option value="one">
+					Exemplo 1
+				</option>
+
+				<option value="two">
+					Exemplo 2
+				</option>
+				<option value="three">
+					Exemplo 3
+				</option>
+			</select>
+		</p>
+		<p>
+			<textarea name="textareaName" rows="4" cols="44"> Texto Exemplo
+			</textarea>
+
+		</p>
+	</div>
+	<p>
+		<input type="radio" name="radiogroup" value="huh" checked> radio button&nbsp; <input type="checkbox" name="checkboxName" value="checkboxValue" checked> check box &nbsp; &nbsp; <input type="submit" name="submitButtonName" value="Submit">&nbsp; <input type="submit" name="submitButtonName" value="Clear"> 
+		<br>
+	
+</div>
+<div id="footer">
+<?php include('../inc/footer.inc.php'); ?> 		
+</div> 
+</body>
+</html>
